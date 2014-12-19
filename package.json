@@ -1,0 +1,42 @@
+{
+  "name": "node-git-fame",
+  "version": "0.0.1",
+  "description": "show statistics based on git blame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "ronin": "git://github.com/solygen/ronin#master",
+      "git-blame": "0.1.1",
+      "deferred": "0.7",
+      "lodash": "2.4"
+  },
+  "devDependencies": {
+      "grunt": "~0.4",
+      "grunt-contrib-jshint": "~0.10",
+      "grunt-jscs": "1.0.0"
+  },
+  "engines": {
+    "node": ">=0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solygen/node-git-fame"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "fame": "./bin/fame"
+  },
+  "keywords": [
+    "cli",
+    "git"
+  ],
+  "author": "Frank Paczynski <frank@solygen.de> (https://github.com/solygen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solygen/node-git-fame/issues"
+  },
+  "homepage": "https://github.com/solygen"
+}
+
